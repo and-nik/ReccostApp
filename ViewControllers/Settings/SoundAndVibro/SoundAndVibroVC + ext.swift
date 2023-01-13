@@ -10,25 +10,6 @@ import UIKit
 import AVFoundation
 import AudioToolbox
 
-
-//Sound Info struct
-
-struct SoundInfo
-{
-    var id = String()
-    var name = String()
-    
-    init(id: String, name: String)
-    {
-        self.id = id
-        self.name = name
-    }
-}
-
-
-
-//MARK: - Sound And Vibro ViewController
-
 class SoundAndVibroViewController : UIViewController
 {
     //var soundsArray = [1057, 1157, 1340, 1344, 1345]
